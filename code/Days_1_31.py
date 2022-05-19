@@ -1,3 +1,7 @@
-import random
-number = random.randint(1, 10)
-print(f" your number is {number}")
+# password generator
+import string
+
+print(string.digits)
+print(string.ascii_letters)
+print(string.punctuation)
+print(string.printable)
